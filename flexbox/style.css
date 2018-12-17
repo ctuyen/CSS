@@ -1,0 +1,52 @@
+/* 
+display: flex;
+flex-direction:
+justify-content:
+align-items:
+flex-basis: cac truong hop ko ra dung ket qua
+flex-grow: <number>
+*/
+body {
+    margin: 0px;
+}
+
+.container {
+    color: #FFF;
+    background-color: #DDD;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50px;
+    width: 600px;
+}
+
+.child-1 {
+    background-color: red;
+    flex-basis: 450px;
+    flex-shrink: 0;
+}
+
+.child-2 {
+    background-color: green;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.child-3 {
+    background-color: blue;
+    flex-basis: 100px;
+}
+
+.container-swap .child-1 {
+    order: 0;
+}
+
+.container-swap .child-2 {
+    order: 0;
+}
+
+.container-swap .child-3 {
+    order: 0;
+}

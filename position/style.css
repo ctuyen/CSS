@@ -1,0 +1,31 @@
+
+/* 
+.container {
+
+} */
+
+.box {
+    height: 128px;
+    width: 128px;
+    color: #FFF;
+}
+
+.red {
+    background-color: #F00;
+
+}
+
+.green {
+    background-color: #0F0;
+
+}
+
+.blue {
+    background-color: #00F;
+}
+
+.fixed {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
